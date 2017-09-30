@@ -1,0 +1,2 @@
+default:
+  dsn: mysql:dbname=bankdb;host=127.0.0.1

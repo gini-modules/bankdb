@@ -1,0 +1,7 @@
+{
+    "id": "bank-db",
+    "name": "Bank DB",
+    "description": "Bank DB",
+    "version": "0.1.0",
+    "dependencies": []
+}
