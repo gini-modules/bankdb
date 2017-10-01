@@ -1,2 +1,4 @@
 default:
-  dsn: mysql:dbname=bankdb;host=127.0.0.1
+  dsn: ${DB_DSN}
+  username: ${DB_USER}
+  password: ${DB_PASS}

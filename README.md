@@ -13,3 +13,11 @@
     // 获取支行具体信息
     $branch = $rpc->Bank->getBranch('中国银行');
     ```
+
+## 配置信息
+```bash
+# sample of APP/.env
+DB_DSN=mysql:dbname=bankdb;host=127.0.0.1
+DB_USER=my_user
+DB_PASS=my_pass
+```
