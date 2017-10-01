@@ -1,8 +1,8 @@
 <?php
 
-namespace Gini\BankDB;
+namespace Gini;
 
-class Client
+class BankDB
 {
     private static function _getBranchInfo($branch, $province=null, $city=null, $company=null) {
         $province or $province = $branch->province;
