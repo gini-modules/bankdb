@@ -2,7 +2,7 @@
 
 namespace Gini\Controller\API;
 
-class Bank
+class BankDB
 {
     private function _getBranchInfo($branch, $province=null, $city=null, $company=null) {
         $province or $province = $branch->province;
