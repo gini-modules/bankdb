@@ -3,5 +3,7 @@
     "name": "BankDB",
     "description": "BankDB",
     "version": "0.1.0",
-    "dependencies": []
+    "dependencies": {
+        "gini": "*"
+    }
 }
