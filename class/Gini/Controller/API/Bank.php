@@ -46,7 +46,7 @@ class Bank
 
         $branches = those('bank/branch');
         if (isset($criteria['*'])) {
-            $words = $this->_splitWords($criteria);
+            $words = $this->_splitWords($criteria['*']);
             $branches = $branches->whose('keywords')->isRelatedTo($words);
         }
 
