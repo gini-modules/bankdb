@@ -18,6 +18,7 @@ class Branch extends Object
     protected static $db_index = [
         'unique:name',
         'unique:code',
-        'fulltext:keywords'
+        'fulltext:keywords',
+        'company,province,city'  // labmai vip 需要联动搜索获取银行信息，添加银行、省、市复合索引
     ];
 }
